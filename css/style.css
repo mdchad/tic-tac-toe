@@ -7,25 +7,40 @@ body {
 h1 {
   text-align: center;
   font-weight: bold;
-  font-size: 45pt;
+  font-size: 50pt;
   padding-top: 10px;
+  margin-bottom: -5px;
+
 }
 
 h2 {
   text-align: center;
-  font-size: 17pt;
-  margin-top: -10px;
+  font-size: 14pt;
+}
+
+#message {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 600px;
+  font-size: 15pt;
+  width: 23%;
+  border: 3px solid white;
+  text-align: center;
+  padding: 5px;
+  background: #257960;
+  border-radius: 2px;
+  float: left;
 }
 
 table {
   margin: 0 auto;
-  margin-top: 35px;
   width: 354px;
   height: 354px;
 }
 .square {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   text-align: center;
   font-size: 30pt;
   font-weight: bold;
@@ -36,3 +51,14 @@ td:hover {background-color: #38b791}
 /*table {
   border: none;
 }*/
+
+a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 8px;
+  float: right;
+  background: #257960;
+  margin-right: 120px;
+}
