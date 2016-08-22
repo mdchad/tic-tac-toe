@@ -27,8 +27,6 @@ function nextMove(square) {
   }
 }
 
-
-
 function switchTurn() {
     if (checkForWinner(document.turn)) {
         setMessage("Congratulations, " + document.turn + " ! You win!");
