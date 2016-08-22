@@ -1,5 +1,5 @@
 body {
-  background: #2A896C;
+  background: #1D9E96;
   color: white;
   font-family: 'Raleway', sans-serif;
 }
@@ -21,22 +21,22 @@ h2 {
 #message {
   margin-top: 0;
   margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 600px;
+  margin-left: 10px;
   font-size: 15pt;
-  width: 23%;
-  border: 3px solid white;
+  width: 33%;
+  border-bottom: 0.5px dotted white;
   text-align: center;
   padding: 5px;
-  background: #257960;
-  border-radius: 2px;
-  float: left;
+  background: #19867e;
+  border-radius: 3px;
 }
 
 table {
+
   margin: 0 auto;
   width: 354px;
   height: 354px;
+  box-sizing: content-box;
 }
 .square {
   width: 60px;
@@ -44,10 +44,10 @@ table {
   text-align: center;
   font-size: 30pt;
   font-weight: bold;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
-td:hover {background-color: #38b791}
+td:hover {background-color: #20b1a7}
 /*table {
   border: none;
 }*/
@@ -56,9 +56,30 @@ a {
   text-decoration: none;
   color: white;
   border: 2px solid white;
-  border-radius: 2px;
-  padding: 8px;
-  float: right;
-  background: #257960;
-  margin-right: 120px;
+  border-radius: 3px;
+  padding: 5px;
+  width: 11%;
+  display: block;
+  text-align: center;
+  margin-left: 10px;
+}
+
+a:hover {
+  background-color: #20b1a7;
+}
+
+#github {
+  position: absolute;
+  right: 3px;
+  bottom: 2px;
+  vertical-align: text-top;
+  width: 6%;
+}
+
+
+
+img {
+  height: 17px;
+  width: 17px;
+  vertical-align: text-bottom;
 }
