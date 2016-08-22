@@ -27,7 +27,7 @@ function nextMove(square) {
   }
 }
 
-var moveCounter = 0;
+
 
 function switchTurn() {
     if (checkForWinner(document.turn)) {
@@ -37,18 +37,14 @@ function switchTurn() {
         updateScoreBoard(document.winner);
     }
     else if (document.turn == "X") {
-        moveCounter++;
         document.turn = "O";
         setMessage("It's " + document.turn + " 's turn")
 
-    } else if {
-        moveCounter++;
+    } else{
         document.turn = "X";
         setMessage("It's " + document.turn + " 's turn")
 
-    } else (moveCounter==9){
-        setMessage("It's a tie!");
-  }
+    }
 }
 
 function checkForWinner(move) {
